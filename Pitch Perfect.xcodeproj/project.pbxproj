@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DA15E8AA277593A500F0788B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8A9277593A500F0788B /* AppDelegate.swift */; };
 		DA15E8AC277593A500F0788B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8AB277593A500F0788B /* SceneDelegate.swift */; };
-		DA15E8AE277593A500F0788B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8AD277593A500F0788B /* ViewController.swift */; };
+		DA15E8AE277593A500F0788B /* RecordVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8AD277593A500F0788B /* RecordVoiceViewController.swift */; };
 		DA15E8B1277593A500F0788B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15E8AF277593A500F0788B /* Main.storyboard */; };
 		DA15E8B3277593A600F0788B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA15E8B2277593A600F0788B /* Assets.xcassets */; };
 		DA15E8B6277593A600F0788B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15E8B4277593A600F0788B /* LaunchScreen.storyboard */; };
+		DA15E8BE27768A5900F0788B /* PlayVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA15E8A6277593A500F0788B /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA15E8A9277593A500F0788B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA15E8AB277593A500F0788B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA15E8AD277593A500F0788B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA15E8AD277593A500F0788B /* RecordVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVoiceViewController.swift; sourceTree = "<group>"; };
 		DA15E8B0277593A500F0788B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA15E8B2277593A600F0788B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA15E8B5277593A600F0788B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA15E8B7277593A600F0788B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				DA15E8A9277593A500F0788B /* AppDelegate.swift */,
 				DA15E8AB277593A500F0788B /* SceneDelegate.swift */,
-				DA15E8AD277593A500F0788B /* ViewController.swift */,
+				DA15E8AD277593A500F0788B /* RecordVoiceViewController.swift */,
+				DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */,
 				DA15E8AF277593A500F0788B /* Main.storyboard */,
 				DA15E8B2277593A600F0788B /* Assets.xcassets */,
 				DA15E8B4277593A600F0788B /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA15E8AE277593A500F0788B /* ViewController.swift in Sources */,
+				DA15E8AE277593A500F0788B /* RecordVoiceViewController.swift in Sources */,
 				DA15E8AA277593A500F0788B /* AppDelegate.swift in Sources */,
 				DA15E8AC277593A500F0788B /* SceneDelegate.swift in Sources */,
+				DA15E8BE27768A5900F0788B /* PlayVoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
