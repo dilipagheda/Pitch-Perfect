@@ -25,22 +25,16 @@ class RecordVoiceViewController: UIViewController, AVAudioRecorderDelegate {
     }
 
     @IBAction func onStopButtonTapHandler(_ sender: UIButton) {
-        
-        helperLabel.text = "Tap above to record your voice!"
-        stopButton.isEnabled = false
-        recordButton.isEnabled = true
-        
+
+        configueUI(false)
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
-        
     }
     
     @IBAction func onRecordButtonTapHandler(_ sender: UIButton) {
-        
-        helperLabel.text = "Recording now..."
-        stopButton.isEnabled = true
-        recordButton.isEnabled = false
+
+        configueUI(true)
         
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true)[0] as String
                 let recordingName = "recordedVoice.wav"
@@ -75,6 +69,13 @@ class RecordVoiceViewController: UIViewController, AVAudioRecorderDelegate {
             let recordedAudioURL = sender as! URL
             playVoiceViewController.recordedAudioURL = recordedAudioURL
         }
+    }
+    
+    func configueUI(_ isRecording: Bool) {
+        
+       stopButton.isEnabled = isRecording
+       recordButton.isEnabled = !isRecording
+       helperLabel.text = isRecording ? "Recording now ..." : "Tap above to record your voice!"
     }
      
 }
