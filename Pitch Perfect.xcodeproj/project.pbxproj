@@ -14,6 +14,7 @@
 		DA15E8B3277593A600F0788B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA15E8B2277593A600F0788B /* Assets.xcassets */; };
 		DA15E8B6277593A600F0788B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA15E8B4277593A600F0788B /* LaunchScreen.storyboard */; };
 		DA15E8BE27768A5900F0788B /* PlayVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */; };
+		DAD127CF2776C92900CD33A3 /* PlayVoiceViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD127CE2776C92900CD33A3 /* PlayVoiceViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DA15E8B5277593A600F0788B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA15E8B7277593A600F0788B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVoiceViewController.swift; sourceTree = "<group>"; };
+		DAD127CE2776C92900CD33A3 /* PlayVoiceViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayVoiceViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				DA15E8AB277593A500F0788B /* SceneDelegate.swift */,
 				DA15E8AD277593A500F0788B /* RecordVoiceViewController.swift */,
 				DA15E8BD27768A5900F0788B /* PlayVoiceViewController.swift */,
+				DAD127CE2776C92900CD33A3 /* PlayVoiceViewController+Audio.swift */,
 				DA15E8AF277593A500F0788B /* Main.storyboard */,
 				DA15E8B2277593A600F0788B /* Assets.xcassets */,
 				DA15E8B4277593A600F0788B /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD127CF2776C92900CD33A3 /* PlayVoiceViewController+Audio.swift in Sources */,
 				DA15E8AE277593A500F0788B /* RecordVoiceViewController.swift in Sources */,
 				DA15E8AA277593A500F0788B /* AppDelegate.swift in Sources */,
 				DA15E8AC277593A500F0788B /* SceneDelegate.swift in Sources */,
@@ -293,13 +297,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L926R3B6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,13 +327,16 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2L926R3B6K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses your microphone to record your voice.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
